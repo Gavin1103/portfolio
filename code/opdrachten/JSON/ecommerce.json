@@ -1,0 +1,39 @@
+{
+    "login_systeem": {
+        "titel": "Ecommerce/Webshop",
+        "vak": "Keuzedeel",
+        "url":"http://u533187.gluweb.nl/ecommerce/",
+        "content": [
+            {
+                "data": [
+                    {
+                        "intro": "Dit is webshop voor een ecommerce(keuzedeel). Ik heb daarom een game webshop gebouwd dat alleen nog niet af is. Het HTML/CSS gedeelte is 80% af, verder van de back-end is de detail pagina dynamisch en je kunt een bestelling plaatsen die dan in de database terecht komt",
+                        "foto": "ecommerce.png"
+                        
+                    }
+                ]
+            }
+        ],
+        "content2": [
+            {
+                "data": [
+                    {
+                        "tekst": "Hier is te zien hoe ik de detail pagina dynamish heb gemaakt(geen OOP). Ik haal eerst productID die ik mee stuur via de URL op met een $_GET, en dan koppel ik de data van dat product aan variabels.",
+                        "foto": "getproduct.png"
+                        
+                    }
+                ]
+            }
+        ],
+        "content3": [
+            {
+                "data": [
+                    {
+                        "tekst": "Hier pas ik de variabelen toe in de HTML.",
+                        "foto": "dynamisch.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

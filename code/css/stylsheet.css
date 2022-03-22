@@ -46,9 +46,9 @@ header {
     height: 250px;
     width: 250px;
     background-color: #00B9FF;
-    margin-top: -130px;
     border-radius: 50%;
     margin-left: 9%;
+    position: absolute;
 }
 
 .bol-2 {
@@ -56,9 +56,8 @@ header {
     width: 250px;
     background-color: #00B9FF;
     border-radius: 50%;
-    float: right;
-    margin-top: -700px;
-    margin-right: 9%
+    position: absolute;
+
 }
 
 nav {
@@ -159,11 +158,14 @@ section a {
 .about-tekst {
     height: auto;
     width: 50%;
-    /* font-size: 200%; */
+    /* font-size: 50px; */
     background-color: white;
     text-align: left;
     /* margin-right: 20%; */
+}
 
+.about-tekst p {
+font-size: 20px;
 
 }
 
@@ -304,6 +306,27 @@ form .submit {
     background-repeat: no-repeat;
 }
 
+.steen_papier_schaar{
+    background-image: url(../opdrachten/img/steenpapierschaar.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.login_systeem {
+    background-image: url(../opdrachten-img/logindesign.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.webshop{
+    background-image: url(../opdrachten/img/ecommerce.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .snakegame {
     background-image: url(../img/snakegame.png);
     background-position: center;
@@ -320,4 +343,62 @@ form .submit {
 .website-block-a:hover {
     opacity: 0.2;
     transition: 1s ease;
+}
+
+/* alles voor showWOrk pagina */
+
+
+.showWorkFoto{
+    width: 100%;
+    
+}
+.showWorkFoto1:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+
+.showWorkContainer{
+    width: 65%;
+    height: 90%;
+    /* background-color: red; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* zoom in image */
+
+.zoomInContainerClass{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    /* opacity: 0.7; */
+    top: 0px;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    /* z-index: -1; */
+}
+
+.closeZoomIn{
+    height: 50px;
+    width: 50px;
+    /* background-color: red; */
+
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.zoomInImage{
+    width: 75%;
 }

@@ -1,0 +1,26 @@
+{
+    "login_systeem": {
+        "titel": "Login Systeem",
+        "vak": "Het Bureau",
+        "content": [
+            {
+                "data": [
+                    {
+                        "intro": "Dit is een inlog systeem dat ik heb gemaakt voor een opdracht van Het Bureau(hier maak je opdrachten voor echte klanten of docenten). Ik heb het met PHP(in OOP) geschreven.Het inlog systeem werk maar het staat nog niet online omdat de rest van de opdracht nog niet af is. Wat ik hier heb gedaan. Ik kijk met de checkInput() functie of alle velden zijn ingevuld, zo ja? Dan wordt er met de verifyUser gekeken of de gebruiker bestaat, en zodra alles klopt word je doorgestuurd naar de volgende pagina.",
+                        "foto": "foto.png"
+                    }
+                ]
+            }
+        ],
+        "content2": [
+            {
+                "data": [
+                    {
+                        "tekst": "Met deze functie haal ik de gegevens van de gebruiker op.",
+                        "foto": "getaccfunc.png"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,39 +1,15 @@
-<!DOCTYPE html>
-<html lang="nl">
+<?php
 
-    <head>
-        <title>portfolio</title>
-        <link rel="stylesheet" type="text/css" href="css/stylsheet.css">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
-        <link rel="stylesheet" href="../code/css/mediaqry.css">
-        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Noto+Serif&display=swap" rel="stylesheet">
-    </head>
+include './core/header.php';
+
+?>
 
 <body>
-
-
     <main>
         <div class="header-work">
-            <nav>
-                <div class="dropdown">
-                    <button class="dropbtn"></button>
-                    <div class="dropdown-content">
-                        <a href="index.html">Home</a>
-                        <a href="about.html">About</a>
-                        <a href="work.html">Work</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-
-                </div>
-                <a class="portfolio">Gavin Tjin</a>
-                <ul>
-                    <li class="home-bg"><a class="home" href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="work.html">Work</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            <?php
+            include('./core/nav.php')
+            ?>
             <div class="website-wrapper">
                 <a href="http://u533187.gluweb.nl/challenge1/" class="website-block-a">
                     <div class="website-block">
@@ -53,12 +29,12 @@
                         </div>
                     </div>
                 </a>
-                <a href="#" class="website-block-a">
+                <a href="show_work.php?opdrachten=login" class="website-block-a">
                     <div class="website-block">
-                        <div class="website-block-img">
+                        <div class="website-block-img login_systeem">
                         </div>
                         <div class="website-block-text">
-                            <h3>CRUD systeem</h3>
+                            <h3>login systeem</h3>
                         </div>
                     </div>
                 </a>
@@ -75,17 +51,21 @@
             </div>
 
             <div class="website-wrapper">
-                <a href="#" class="website-block-a">
+            <a href="show_work.php?opdrachten=ecommerce" class="website-block-a">
                     <div class="website-block">
-                        <div class="website-block-img">
-
+                        <div class="website-block-img webshop">
+                        </div>
+                        <div class="website-block-text">
+                            <h3>Webshop</h3>
                         </div>
                     </div>
                 </a>
-                <a href="#" class="website-block-a">
+                <a href="http://u533187.gluweb.nl/steenpapierschaar/" class="website-block-a">
                     <div class="website-block">
-                        <div class="website-block-img">
-
+                        <div class="website-block-img steen_papier_schaar">
+                        </div>
+                        <div class="website-block-text">
+                            <h3>Steen papier schaar</h3>
                         </div>
                     </div>
                 </a>
@@ -143,6 +123,9 @@
     </figure>
     <figure class="bol-2">
     </figure> -->
-</body>
 
-</html>
+    <?php
+
+    include 'core/footer.php';
+
+    ?>
