@@ -7,15 +7,16 @@ define("BASEURL", "http://localhost/programming/portfolio/code/");
         <button class="dropbtn"></button>
         <div class="dropdown-content">
             <a href="index.php">Home</a>
-            <a href="about.php">About</a>
+            <!-- <a href="about.php">About</a> -->
             <a href="work.php">Work</a>
             <a href="contact.php">Contact</a>
         </div>
     </div>
     <a class="portfolio">Gavin Tjin</a>
+    <a href="https://github.com/Gavin1103/"><div class="urlIcons github"></div></a>
     <ul>
         <li class="home-bg"><a class="home" href="<?php echo BASEURL; ?>">Home</a></li>
-        <li><a href="<?php echo BASEURL; ?>about.php">About</a></li>
+        <!-- <li><a href="<?php echo BASEURL; ?>about.php">About</a></li> -->
         <li><a href="<?php echo BASEURL; ?>work.php">Work</a></li>
         <li><a href="<?php echo BASEURL; ?>contact.php">Contact</a></li>
     </ul>

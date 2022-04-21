@@ -11,6 +11,7 @@ body {
     width: 100%;
     justify-content: center;
     min-width: 320px;
+
 }
 
 main {
@@ -19,9 +20,31 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-height: 1000px;
 
     /* background-color: #00B9FF; */
 }
+
+/*header voor de work-paginas*/
+.header-work {
+
+    height: 80%;
+    width: 65%;
+    max-width: 1800px;
+    max-height: 1000px;
+    min-height: 800px;
+    /* background-color: red; */
+    box-shadow: 0px 0px 10px 0px;
+    display: block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    /* padding-bottom: 100px; */
+
+
+
+
+}
+
 
 header {
 
@@ -37,10 +60,48 @@ header {
 
 .main-container {
     /* background-color: #3e8e41; */
-    height: 90%;
+    height: 85%;
     width: 100%;
     display: flex;
 }
+/* alles voor de footer */
+footer {
+    width: 100%;
+    height: 5%;
+    /* background-color: red; */
+
+}
+
+#workLinks {
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: 100%;
+/* background-color: #00B9FF; */
+}
+
+.urlIcons {
+height: 40px;
+width: 40px;
+margin-left: 10px;
+
+/* background-color: red; */
+}
+
+.github{
+    background-image: url(../img/urlicons/github.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.linkedin{
+    background-image: url(../img/urlicons/linkedin.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 
 .bol-1 {
     height: 250px;
@@ -165,7 +226,7 @@ section a {
 }
 
 .about-tekst p {
-font-size: 20px;
+    font-size: 20px;
 
 }
 
@@ -222,6 +283,7 @@ form .submit {
     letter-spacing: 2px;
     height: 50px;
 }
+
 .content {
     display: flex;
     justify-content: center;
@@ -232,25 +294,6 @@ form .submit {
 
 
 
-/*header voor de work-paginas*/
-.header-work {
-
-    height: 80%;
-    width: 65%;
-    max-width: 1800px;
-    max-height: 1000px;
-    min-height: 800px;
-    background-color: white;
-    box-shadow: 0px 0px 10px 0px;
-    display: block;
-    overflow-y: scroll;
-    overflow-x: hidden;
-
-
-
-}
-
-
 
 /* alles voor de work websites pagina */
 .website-wrapper {
@@ -259,7 +302,7 @@ form .submit {
 
     display: flex;
     justify-content: space-evenly;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     /* flex-direction: row; */
     /* background-color: red; */
 }
@@ -306,7 +349,7 @@ form .submit {
     background-repeat: no-repeat;
 }
 
-.steen_papier_schaar{
+.steen_papier_schaar {
     background-image: url(../opdrachten/img/steenpapierschaar.jpg);
     background-position: center;
     background-size: contain;
@@ -320,7 +363,7 @@ form .submit {
     background-repeat: no-repeat;
 }
 
-.webshop{
+.webshop {
     background-image: url(../opdrachten/img/ecommerce.png);
     background-position: center;
     background-size: contain;
@@ -348,25 +391,26 @@ form .submit {
 /* alles voor showWOrk pagina */
 
 
-.showWorkFoto{
+.showWorkFoto {
     width: 100%;
-    
+    /* margin-bottom: 10px; */
+
 }
-.showWorkFoto1:hover{
+
+.showWorkFoto1:hover {
     opacity: 0.7;
     cursor: pointer;
 }
 
 
-.showWorkContainer{
+.showWorkContainer {
     width: 65%;
-    height: 90%;
+    height: auto;
+    /* padding-bottom: 10px; */
     /* background-color: red; */
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
     margin-left: auto;
     margin-right: auto;
 }
@@ -374,31 +418,33 @@ form .submit {
 
 /* zoom in image */
 
-.zoomInContainerClass{
+.zoomInContainerClass {
     position: absolute;
     width: 100%;
     height: 100vh;
     background-color: white;
-    /* opacity: 0.7; */
     top: 0px;
-
     display: none;
     justify-content: center;
     align-items: center;
-
-    /* z-index: -1; */
 }
 
-.closeZoomIn{
+.closeZoomIn {
     height: 50px;
     width: 50px;
-    /* background-color: red; */
-
+    background-color: white;
+    background-image: url(../img/closeIcon3.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: absolute;
     top: 50px;
     right: 50px;
+    border: none;
 }
 
-.zoomInImage{
+.zoomInImage {
     width: 75%;
+    /* height: 90%; */
+    /* position: absolute; */
 }

@@ -81,6 +81,15 @@
         margin-top: 50px;
     }
 }
+@media only screen and (max-width: 1000px) {
+
+    .zoomInImage {
+        /* width: 75%; */
+        /* display: none; */
+        /* transform: rotate(-90deg); */
+        width: 90%;
+    }
+}
 
 @media only screen and (max-width: 950px) {
     .contact-title{

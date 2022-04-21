@@ -12,7 +12,7 @@ include './core/header.php';
             ?>
             <div class="main-container">
                 <div class="foto-index">
-                    <img class="selfie" src="../code/img/foto-selfie.png" alt="">
+                    <!-- <img class="selfie" src="../code/img/foto-selfie.png" alt=""> -->
                 </div>
                 <div class="index-text">
                     <section>
@@ -21,7 +21,7 @@ include './core/header.php';
                         <h3>
                             I am a digital developer
                         </h3>
-                        <p><a href="about.php">Read more...</a></p>
+                        <p><a href="work.php">My work...</a></p>
                     </section>
                 </div>
             </div>
